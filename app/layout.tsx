@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
 };
 
-const banner = <Banner storageKey="2025-03-15-unreleased">即将发布...</Banner>;
+// const banner = <Banner storageKey="2025-03-15-unreleased">即将发布...</Banner>;
 const navbar = (
   <Navbar
     logo={
@@ -68,10 +68,10 @@ export default async function RootLayout({
       </Head>
       <body>
         <Layout
-          banner={banner}
+          // banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/shuding/nextra/tree/main/docs"
+          docsRepositoryBase="https://github.com/AprilNEA/HowToRunCompany/tree/master/docs"
           footer={footer}
           // ... Your additional layout options
         >

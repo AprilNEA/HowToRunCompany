@@ -15,7 +15,8 @@ export async function generateMetadata(props: Props) {
   return metadata;
 }
 
-const Wrapper = getMDXComponents().wrapper;
+// biome-ignore lint/style/noNonNullAssertion: <explanation>
+const Wrapper = getMDXComponents().wrapper!;
 
 export default async function Page(props: Props) {
   const params = await props.params;

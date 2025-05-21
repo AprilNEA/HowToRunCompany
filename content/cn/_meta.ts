@@ -1,7 +1,7 @@
 import type { MetaRecord } from "nextra";
 
 export default {
-  index: {},
+  // index: {},
   register: {},
   bank: {},
   tax: {},

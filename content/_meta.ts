@@ -2,27 +2,27 @@ import type { MetaRecord } from "nextra";
 
 export default {
   index: {
-		type: "page",
-		title: "总览",
-		display: "hidden",
+		// type: "page",
+		// title: "总览",
+		// display: "hidden",
 		// theme: {
 		// 	layout: "full",
 		// },
 	},
   cn: {
-    type: "page",
+    // type: "page",
     title: "中国大陆",
   },
   hk: {
-    type: "page",
+    // type: "page",
     title: "中国香港",
   },
   us: {
-    type: "page",
+    // type: "page",
     title: "美国",
   },
   gb: {
-    type: "page",
+    // type: "page",
     title: "英国",
   },
 
